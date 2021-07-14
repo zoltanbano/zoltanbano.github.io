@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana;
+    background-color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    padding: 40px;
+}
+
+h1,
+h2,
+p {
+    color: lightgray;
+}
+
+.profile {
+    height: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight:500;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p.copyright,
+p.contact {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p.project-description {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a.project-link{
+    font-size: 24px;
+    color: rgb(136, 135, 212);
+}
+
+.project-box {
+    margin: auto;
+    width: 30%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #444;
+}
