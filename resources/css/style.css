@@ -35,38 +35,40 @@ p {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-weight:500;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 p.copyright,
 p.contact {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 p.project-description {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 300;
 }
 
 a.project-link{
-    font-size: 24px;
+    font-size: 1.5rem;
+    font-style: oblique;
     color: rgb(136, 135, 212);
 }
 
 .project-box {
     margin: auto;
-    width: 40%;
+    width: 90%;
+    max-width: 600px;
     border: 3px solid black;
     padding: 10px;
     background-color: #444;
