@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana;
+    font-family: Helvetica, Verdana, sans-serif;
     background-color: #333;
     text-align: center;
     height: 100vh;
@@ -35,28 +35,27 @@ p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight:500;
 }
 
 p {
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 1.2em;
 }
 
 p.copyright,
 p.contact {
-    font-size: 14px;
+    font-size: 0.8em;
     font-weight: bold;
 }
 
 p.project-description {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
 }
 
@@ -67,8 +66,9 @@ a.project-link{
 
 .project-box {
     margin: auto;
-    width: 30%;
+    width: 40%;
     border: 3px solid black;
     padding: 10px;
     background-color: #444;
+    border-radius: 10px;
 }
