@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, Verdana, sans-serif;
+    font-family: "Open Sans", Verdana, sans-serif;
     background-color: #335;
     text-align: center;
     height: 100vh;
@@ -35,13 +35,14 @@ p {
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 4rem;
+    font-weight: 300;
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-weight:500;
+    font-size: 2rem;
+    font-weight:700;
+    margin-top: 2em;
 }
 
 p {
@@ -62,7 +63,7 @@ p.project-description {
 a.project-link{
     font-size: 1.5rem;
     font-style: oblique;
-    color: rgb(136, 135, 212);
+    color: rgb(136, 135, 233);
 }
 
 .project-box {
